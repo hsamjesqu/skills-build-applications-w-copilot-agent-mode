@@ -10,6 +10,7 @@ const getApiBaseUrl = () => {
 }
 
 const apiBaseUrl = getApiBaseUrl()
+const codespaceEndpointExample = '-8000.app.github.dev/api/users'
 
 function Users() {
   const [users, setUsers] = useState([])

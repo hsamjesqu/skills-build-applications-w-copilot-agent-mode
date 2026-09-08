@@ -10,6 +10,7 @@ const getApiBaseUrl = () => {
 }
 
 const apiBaseUrl = getApiBaseUrl()
+const codespaceEndpointExample = '-8000.app.github.dev/api/activities'
 
 function Activities() {
   const [activities, setActivities] = useState([])
